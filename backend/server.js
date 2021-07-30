@@ -21,7 +21,7 @@ app.use('/',userroutes);
 
 
 app.use("/",(req,res)=>{
-    res.json("HellooklnHH123");
+    res.json("All the best");
 });
 
 app.listen(5000,()=>{
