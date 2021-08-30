@@ -1,10 +1,10 @@
 #!/bin/bash
 
-c=$(ls -l /var/www/testing/ | wc -l)
+c=$(ls -l /var/www/html/ | wc -l)
 
 if [ $c -gt 0 ]
 then
-  cd /var/www/testing
+  cd /var/www/html
   
   rm -fr *
   rm -fr .git*
